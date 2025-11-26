@@ -114,6 +114,7 @@ Router.get("/product", auth, allowRoles("admin", "employee"), async (req, res) =
   }
 });
 
+
 // ---------------------------
 // GET SINGLE PRODUCT
 // ---------------------------
